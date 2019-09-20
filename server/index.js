@@ -29,7 +29,7 @@ app.route('/')
         res.send({
             message: "Loa",
             status: "SUCCESS",
-            data: {result: 'resulss'}
+            data: {result: 'result'}
         });
     });
 
