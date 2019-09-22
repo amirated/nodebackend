@@ -4,7 +4,7 @@ var path = require('path');
 var app = express();
 
 var allowedOrigins = ['http://localhost:4100',
-'http://abucketformyself.s3-website.ap-south-1.amazonaws.com'];
+'http://art-music-science.com'];
 app.use(cors({
     origin: function(origin, callback){
         // allow requests with no origin 
